@@ -16,7 +16,7 @@ import java.util.Set;
 public class Aut {
     private final List<Transicao> transicoes;
     private final Set<Integer> estadosFinais;
-    private final String alfabeto = "ab";
+    private final String alfabeto = "abc";
 
     public Aut(List<Transicao> transicoes, Set<Integer> estadosFinais) {
         this.transicoes = transicoes;
